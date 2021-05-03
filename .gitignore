@@ -1,7 +1,11 @@
 *.replit
+<<<<<<< HEAD
 *.class
 *.jar
 #**/*
+=======
+**/*
+>>>>>>> 86b31559c0dbf1d4fcf4dad6cf67b4b5c9922593
 !**/*.cpp
 !**/*.dart
 !**/*.go
@@ -11,3 +15,7 @@
 !**/*.rb
 !**/*.scala
 !**/*.html
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86b31559c0dbf1d4fcf4dad6cf67b4b5c9922593
