@@ -33,7 +33,7 @@ class Ejercicio04{
         resultado=resultado*num1;
         }
       }break;
-      default:{System.out.println("ERROR\nIntrodusca bien los datos"); }break;
+      default:{System.out.println("ERROREIntrodusca bien los datos"); }break;
     }
     
     System.out.println("Su resultado es:"+resultado);

@@ -19,7 +19,7 @@ class Ejercicio01{
     TrabajoFinal=teclado.nextDouble();
     //Proceso
     Resultado=(NotaUnidad1*0.20)+(NotaUnidad2*0.15)+(NotaUnidad3*0.15)+(TrabajoFinal*0.50);
-    System.out.println("El promedio final del alumno:"+Alumno+"es de "+Resultado);
+    System.out.println("El promedio final del alumno:"+Alumno+"es de"+Resultado);
   }
   public static void main (String[] arg){
     Ejercicio01JVO();
