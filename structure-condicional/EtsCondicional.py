@@ -50,7 +50,7 @@ def pagoSemanalBase40horas():
   #Datos de salida
   print("El sueldo a pagar al trabajador es:",sueldoPagarSem)
 
-def notaPostulanteEstMoltiple()
+
 #estCondicional02()
 #estCondicional02()
 #votoElecciones()
