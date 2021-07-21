@@ -1,0 +1,9 @@
+C1	Bebidas
+C2	Frutas
+C3	Vegetales
+C4	Golocianas
+C5	Accesorios de limpieza
+C6	Cereales
+C7	Menestras
+C8	Galletas
+C9	Insumos de cocina

@@ -1,29 +1,9 @@
 package pe.edu.upeu.jvo.examen;
 import pe.edu.upeu.jvo.Utils.*;
 public class ResolucionExamen {
-    public static void ejercicio05() {
-        LeerTeclado jvo=new LeerTeclado();
-        int base=jvo.leer(0, "Introdusca la base: ");
-        int exponente=jvo.leer(0, "Introdusca el exponente");
-        System.out.println(potencia(base, exponente));
-        
-    }
-    public static double potencia(int base, int exponente){
-        
-        if(exponente==0){
-            return 1;
-        }else if (exponente==1){ 
-            return base;
-        } else if (exponente<0) {
-            return potencia(base, exponente+1) / base;
-        } else {
-            return base * potencia(base, exponente-1);
-        }
-    }
-    
     private static void ejercicio04(){
         LeerTeclado jvo = new LeerTeclado();
-        int num, divisor=1, residuo, i=1;
+        int num, residuo, i=1;
         System.out.println("Bienenido al Systema que definira divisores\n");
         num=jvo.leer(0,"Introdusca el numero natural");
         while(i<=num){
@@ -72,6 +52,23 @@ public class ResolucionExamen {
                 total0=i*numero;
                 System.out.println(""+numero+"x"+i+"= "+total0);
             }
+        }
+    }
+    public static void ejercicio05() {
+        LeerTeclado jvo=new LeerTeclado();
+        int base=jvo.leer(0, "Introdusca la base: ");
+        int exponente=jvo.leer(0, "Introdusca el exponente");
+        System.out.println(potencia(base, exponente));
+    }
+    public static double potencia(int base, int exponente){
+        if(exponente==0){
+            return 1;
+        }else if (exponente==1){ 
+            return base;
+        } else if (exponente<0) {
+            return potencia(base, exponente+1) / base;
+        } else {
+            return base * potencia(base, exponente-1);
         }
     }
 

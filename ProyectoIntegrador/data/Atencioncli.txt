@@ -1,0 +1,7 @@
+1	Jose	esta bien el producto	17-07-2021
+4	Patricio	null	18-07-2021
+1	Patric	Seria bueno que trajeran papas amarillas	18-07-2021
+4	Dario	null	18-07-2021
+0	Mario	null	18-07-2021
+4	Paolo	l	19-07-2021
+4	Pedro	null	20-07-2021

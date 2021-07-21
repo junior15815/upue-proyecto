@@ -1,0 +1,6 @@
+P1	Fanta	C1	Unidad	8.0	3.0
+P2	Uvas	C2	kilos	3.0	5.0
+P3	Sebada	C6	Kilos	8.0	2.0
+P4	Lentejas	C7	Kilos	3.0	1.0
+P5	Rellenitas	C8	Unidad	0.5	1.0
+P6	Triden	C4	Unidad	1.0	7.0

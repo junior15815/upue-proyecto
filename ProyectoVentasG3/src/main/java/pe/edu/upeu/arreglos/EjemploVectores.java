@@ -5,7 +5,6 @@ public class EjemploVectores {
     public static void conceptosVectores() {
         //variable vectores
         int[] vector;
-        int []vectorx;
         //dando tamaño al vector
         vector = new int[10];
         //asignando valores al vector
@@ -43,9 +42,27 @@ public class EjemploVectores {
             System.out.println("b["+i+"]"+b[i]);
         }
     }
+    public  static void contarElementosVecCerosPosNeg(int[] vector){
+        int cantCeros=0, cantPost=0, cantNeg=0;
+        for (int i=0; i<vector.length; i++){
+            if (vector[i]<0){
+                cantNeg++;
+            }else if(vector[i]==0){
+                cantCeros++;
+            }else{
+                cantPost++;
+            }
+
+        }
+        System.out.println("Elementos con valores negaticos son: "+cantCeros);
+        System.out.println("Elementos con valores positivos son: "+cantPost);
+        System.out.println("Elementos con valores negaticos son: "+cantNeg);
+    }
     public static void main(String[] args){
         System.out.println("Invertir vectores: ");
-    invertirVector();
+        //invertirVector();
+        int[] vA={1,2,3,4,5,6,7,8,9,10,-5,2,8,-7,3,0};
+        contarElementosVecCerosPosNeg(vA);
 
     }
     
