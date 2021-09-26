@@ -1,4 +1,5 @@
 #este es el ejercicio 3.3
+print ("Hola mundo de mierda")
 def ejercicio06():
   #Inicio
   print("Buenos dias")

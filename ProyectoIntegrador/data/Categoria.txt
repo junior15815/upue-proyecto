@@ -7,3 +7,5 @@ C6	Cereales
 C7	Menestras
 C8	Galletas
 C9	Insumos de cocina
+C10	Chicles
+C11	Shampo
