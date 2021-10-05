@@ -9,13 +9,13 @@ public class App {
         System.out.println("Introdusca un numero B ");
         int opcionB= sc.nextInt();
         if(opcionA>opcionB) {
-            System.out.println(opcionA+">"+opcionB);
+            System.out.println(opcionA+" es mayor que "+opcionB);
         }
         if(opcionA<opcionB) {
-            System.out.println(opcionA+"<"+opcionB);
+            System.out.println(opcionA+" es menor que "+opcionB);
         }
         if(opcionA==opcionB) {
-            System.out.println(opcionA+"="+opcionB);
+            System.out.println(opcionA+" es igual a "+opcionB);
         }
     }
 }
